@@ -46,28 +46,22 @@ For more information on the SDI-12 protocol, please visit:
 					<Item Name="Scan Send Data Command Response.vi" Type="VI" URL="../Public/Data/Low Level/Advanced/Scan Send Data Command Response.vi"/>
 					<Item Name="Scan Start Measurement Command Response.vi" Type="VI" URL="../Public/Data/Low Level/Advanced/Scan Start Measurement Command Response.vi"/>
 					<Item Name="Service Request Handler.vi" Type="VI" URL="../Public/Data/Low Level/Advanced/Service Request Handler.vi"/>
-					<Item Name="SDI_LowLevel_Advanced.mnu" Type="Document" URL="/&lt;instrlib&gt;/SDI-12/Public/Data/Low Level/Advanced/SDI_LowLevel_Advanced.mnu"/>
 				</Item>
 				<Item Name="Wait.vi" Type="VI" URL="../Public/Data/Low Level/Wait.vi"/>
 				<Item Name="Initiate Measurement.vi" Type="VI" URL="../Public/Data/Low Level/Initiate Measurement.vi"/>
 				<Item Name="Fetch.vi" Type="VI" URL="../Public/Data/Low Level/Fetch.vi"/>
-				<Item Name="SDI_Data_LowLevel.mnu" Type="Document" URL="/&lt;instrlib&gt;/SDI-12/Public/Data/Low Level/SDI_Data_LowLevel.mnu"/>
 			</Item>
 			<Item Name="Read Single.vi" Type="VI" URL="../Public/Data/Read Single.vi"/>
 			<Item Name="Read Multiple.vi" Type="VI" URL="../Public/Data/Read Multiple.vi"/>
-			<Item Name="SDI_Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/SDI-12/Public/Data/SDI_Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Address Query.vi" Type="VI" URL="../Public/Utility/Address Query.vi"/>
 			<Item Name="Acknowledge Active.vi" Type="VI" URL="../Public/Utility/Acknowledge Active.vi"/>
 			<Item Name="Query Quanta Transmitter Serial Number.vi" Type="VI" URL="../Public/Utility/Query Quanta Transmitter Serial Number.vi"/>
 			<Item Name="Change Address.vi" Type="VI" URL="../Public/Utility/Change Address.vi"/>
-			<Item Name="SDI_Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/SDI-12/Public/Utility/SDI_Utility.mnu"/>
 		</Item>
 		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
-		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/SDI-12/dir.mnu"/>
 	</Item>
-	<Item Name="SDI-12 Readme.html" Type="Document" URL="/&lt;instrlib&gt;/SDI-12/SDI-12 Readme.html"/>
 </Library>
