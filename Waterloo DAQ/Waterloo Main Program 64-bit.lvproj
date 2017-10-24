@@ -21,7 +21,7 @@
 		<Item Name="Calibrate Salinity Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate Salinity Sensor2.vi"/>
 		<Item Name="Calibrate SC Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate SC Sensor2.vi"/>
 		<Item Name="Calibrate Sonde Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Sonde Sensor.vi"/>
-		<Item Name="Cascade front panel.vi" Type="VI" URL="../../../Cascade/Waterloo DAQ/Cascade front panel.vi"/>
+		<Item Name="Cascade front panel 64.vi" Type="VI" URL="../Cascade front panel 64.vi"/>
 		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../sdi_12/cell pair to sonde value cluster.vi"/>
 		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
 		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../sdi_12/convert cell pair to dbl.vi"/>
@@ -38,6 +38,7 @@
 		<Item Name="Ik control.ctl" Type="VI" URL="../KPRO_2016 subvis/Ik control.ctl"/>
 		<Item Name="Ion Slope Control 8.ctl" Type="VI" URL="../KPRO_2016 subvis/Ion Slope Control 8.ctl"/>
 		<Item Name="kpro 2016.vi" Type="VI" URL="../KPRO_2016 subvis/kpro 2016.vi"/>
+		<Item Name="KPro Header Control 1.ctl" Type="VI" URL="../controls/KPro Header Control 1.ctl"/>
 		<Item Name="Kpro Read String Pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Kpro Read String Pot 2016.vi"/>
 		<Item Name="KPRO State Controller 2016.vi" Type="VI" URL="../KPRO_2016 subvis/KPRO State Controller 2016.vi"/>
 		<Item Name="MCC DAQ Readings.ctl" Type="VI" URL="../controls/MCC DAQ Readings.ctl"/>
@@ -396,11 +397,9 @@
 			<Item Name="populate sonde row cluster from sonde data cluster.vi" Type="VI" URL="../sdi_12/populate sonde row cluster from sonde data cluster.vi"/>
 			<Item Name="prepend time to sonde data array.vi" Type="VI" URL="../sdi_12/prepend time to sonde data array.vi"/>
 			<Item Name="pressure and IK2 2016.vi" Type="VI" URL="../KPRO_2016 subvis/pressure and IK2 2016.vi"/>
-			<Item Name="pressure and IK2.vi" Type="VI" URL="../KPRO_2016 subvis/pressure and IK2.vi"/>
 			<Item Name="prompt_and_enter_value 2016.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value 2016.vi"/>
 			<Item Name="prompt_and_enter_value2.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value2.vi"/>
 			<Item Name="prompt_string.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_string.vi"/>
-			<Item Name="RANDOM_RANGE.vi" Type="VI" URL="../KPRO_2016 subvis/RANDOM_RANGE.vi"/>
 			<Item Name="read 12V monitor from Z SDI-12 address.vi" Type="VI" URL="../sdi_12/read 12V monitor from Z SDI-12 address.vi"/>
 			<Item Name="sample data row cluster.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sample data row cluster.ctl"/>
 			<Item Name="SDI-12 Continuous Operations.vi" Type="VI" URL="../sdi_12/SDI-12 Continuous Operations.vi"/>
@@ -462,7 +461,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{EB09F00C-2889-483A-ACCF-F011555FB8B8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel 64.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
