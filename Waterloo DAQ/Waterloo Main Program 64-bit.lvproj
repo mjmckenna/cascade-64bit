@@ -10,6 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Data" Type="Folder" URL="../../../Cascade/Data">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="templates" Type="Folder" URL="../../../Cascade/templates">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Action Control 1.ctl" Type="VI" URL="../controls/Action Control 1.ctl"/>
 		<Item Name="append filename to Cascade csv data file.vi" Type="VI" URL="../append filename to Cascade csv data file.vi"/>
 		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
@@ -43,6 +49,7 @@
 		<Item Name="KPRO State Controller 2016.vi" Type="VI" URL="../KPRO_2016 subvis/KPRO State Controller 2016.vi"/>
 		<Item Name="MCC DAQ Readings.ctl" Type="VI" URL="../controls/MCC DAQ Readings.ctl"/>
 		<Item Name="MCC DAQ Setup.ctl" Type="VI" URL="../controls/MCC DAQ Setup.ctl"/>
+		<Item Name="mccdaq.exe" Type="Document" URL="../../mccdaq.exe"/>
 		<Item Name="Measure DAQ Voltages.vi" Type="VI" URL="../Measure DAQ Voltages.vi"/>
 		<Item Name="measure down hole pressure and save to csv file.vi" Type="VI" URL="../KPRO_2016 subvis/measure down hole pressure and save to csv file.vi"/>
 		<Item Name="New Stainless Correction Pop Up 2016.vi" Type="VI" URL="../KPRO_2016 subvis/New Stainless Correction Pop Up 2016.vi"/>
@@ -67,6 +74,7 @@
 		<Item Name="Up Hole PRESSURE_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Up Hole PRESSURE_CAL 2016.vi"/>
 		<Item Name="volume integrator.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../sdi_12/wait for bytes at serial port.vi"/>
+		<Item Name="Write Excel Files.vi" Type="VI" URL="../Write Excel Files.vi"/>
 		<Item Name="write out sonde row.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -449,7 +457,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -458,7 +466,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EB09F00C-2889-483A-ACCF-F011555FB8B8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BEF751C2-17BA-40E8-B8C5-D9E8EE2048BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel 64.vi</Property>
@@ -472,6 +480,214 @@
 				<Property Name="TgtF_productName" Type="Str">cascade-64</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9E43D8B0-62C9-441F-85B9-45AC8E110F21}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Cascade-64.exe</Property>
+			</Item>
+			<Item Name="Waterloo 64bit full installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Waterloo Main Program 64-bit</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{5A0CA782-5A29-48F2-8E2A-14E1FE9F7673}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2016 f2 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI System Web Server 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI Error Reporting 2016 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI Logos 5.8</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI TDM Streaming 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2016 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{A7235937-9521-41F9-A93E-859437EE944E}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{914C106C-AB3B-43B2-86BC-96DF146D03C3}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">Microsoft</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Waterloo Main Program 64-bit/ full Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit full installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
+				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
+				<Property Name="MSI_arpContact" Type="Str">Mark McKenna</Property>
+				<Property Name="MSI_arpPhone" Type="Str">8027287409</Property>
+				<Property Name="MSI_arpURL" Type="Str">www.ara.com</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{D08F03E9-8218-4BAC-9747-9BE3A74DC359}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{35B7C606-C0E3-4EE0-8A6E-CAC80D76D54A}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Installing Cascade 64-bit Waterloo DAQ Labview Program to C:\Program Files.  Main Files are in C:\Cascade</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Installing Cascade Waterloo DAQ Labview Program</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[0].name" Type="Str">Cascade front panel 64.vi</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Cascade front panel 64.vi</Property>
+				<Property Name="Source[0].type" Type="Str">File</Property>
+				<Property Name="Source[0].unlock" Type="Bool">true</Property>
+				<Property Name="Source[1].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[1].name" Type="Str">mccdaq.exe</Property>
+				<Property Name="Source[1].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/mccdaq.exe</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[2].File[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[2].File[0].name" Type="Str">Groundwater Profiling Log_2.xlsx</Property>
+				<Property Name="Source[2].File[0].tag" Type="Ref">/My Computer/Data/Excel Reports/Groundwater Profiling Log_2.xlsx</Property>
+				<Property Name="Source[2].FileCount" Type="Int">1</Property>
+				<Property Name="Source[2].name" Type="Str">Data</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Data</Property>
+				<Property Name="Source[2].type" Type="Str">Folder</Property>
+				<Property Name="Source[3].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[3].File[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[3].File[0].name" Type="Str">Fields for Excel sheets.xlsx</Property>
+				<Property Name="Source[3].File[0].tag" Type="Ref">/My Computer/templates/Fields for Excel sheets.xlsx</Property>
+				<Property Name="Source[3].FileCount" Type="Int">1</Property>
+				<Property Name="Source[3].name" Type="Str">templates</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/templates</Property>
+				<Property Name="Source[3].type" Type="Str">Folder</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+			</Item>
+			<Item Name="Waterloo 64bit LV installer" Type="Installer">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2016/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2016/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
+				<Property Name="Destination[0].name" Type="Str">Waterloo Main Program 64-bit</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{5A0CA782-5A29-48F2-8E2A-14E1FE9F7673}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2016 f2 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI System Web Server 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI Error Reporting 2016 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI Logos 5.8</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI TDM Streaming 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2016 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{A7235937-9521-41F9-A93E-859437EE944E}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{914C106C-AB3B-43B2-86BC-96DF146D03C3}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">Microsoft</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Waterloo Main Program 64-bit/ LV Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit LV installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
+				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
+				<Property Name="MSI_arpContact" Type="Str">Mark McKenna</Property>
+				<Property Name="MSI_arpPhone" Type="Str">8027287409</Property>
+				<Property Name="MSI_arpURL" Type="Str">www.ara.com</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{A9E21FFC-7252-4F25-9655-2D045BA1B6AD}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{6BCBEA01-7DD4-4F63-BA02-94009881FDB0}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Installing Cascade 64-bit Waterloo DAQ Labview Program to C:\Program Files.  Main Files are in C:\Cascade</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Installing Cascade Waterloo DAQ Labview Program</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[0].name" Type="Str">Cascade front panel 64.vi</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Cascade front panel 64.vi</Property>
+				<Property Name="Source[0].type" Type="Str">File</Property>
+				<Property Name="Source[0].unlock" Type="Bool">true</Property>
+				<Property Name="Source[1].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">Groundwater Profiling Log_2.xlsx</Property>
+				<Property Name="Source[1].File[0].tag" Type="Ref">/My Computer/Data/Excel Reports/Groundwater Profiling Log_2.xlsx</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">Data</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Data</Property>
+				<Property Name="Source[1].type" Type="Str">Folder</Property>
+				<Property Name="Source[2].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[2].File[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[2].File[0].name" Type="Str">Fields for Excel sheets.xlsx</Property>
+				<Property Name="Source[2].File[0].tag" Type="Ref">/My Computer/templates/Fields for Excel sheets.xlsx</Property>
+				<Property Name="Source[2].FileCount" Type="Int">1</Property>
+				<Property Name="Source[2].name" Type="Str">templates</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/templates</Property>
+				<Property Name="Source[2].type" Type="Str">Folder</Property>
+				<Property Name="Source[3].File[0].dest" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
+				<Property Name="Source[3].File[0].name" Type="Str">Fields for Excel sheets.xlsx</Property>
+				<Property Name="Source[3].File[0].tag" Type="Ref">/My Computer/templates/Fields for Excel sheets.xlsx</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
