@@ -67,6 +67,7 @@
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
+		<Item Name="strip path example.vi" Type="VI" URL="../strip path example.vi"/>
 		<Item Name="test report gen.vi" Type="VI" URL="../sdi_12/test report gen.vi"/>
 		<Item Name="Turn On Off Circulator.vi" Type="VI" URL="../sdi_12/Turn On Off Circulator.vi"/>
 		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../sdi_12/turn sensor on-off loop.vi"/>
@@ -709,7 +710,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit small installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
