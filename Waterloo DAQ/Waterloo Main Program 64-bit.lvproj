@@ -37,6 +37,7 @@
 		<Item Name="Depth Control.ctl" Type="VI" URL="../KPRO_2016 subvis/Depth Control.ctl"/>
 		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
 		<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
+		<Item Name="fill cell loop.vi" Type="VI" URL="../fill cell loop.vi"/>
 		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../KPRO_2016 subvis/Finished Collection Write File.vi"/>
 		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../sdi_12/format into Sonde Data Array.vi"/>
 		<Item Name="Graph Controls 2.ctl" Type="VI" URL="../KPRO_2016 subvis/Graph Controls 2.ctl"/>
@@ -56,7 +57,9 @@
 		<Item Name="One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib"/>
 		<Item Name="populate sonde row cluster from row.vi" Type="VI" URL="../sdi_12/populate sonde row cluster from row.vi"/>
 		<Item Name="Pressure Control 1.ctl" Type="VI" URL="../KPRO_2016 subvis/Pressure Control 1.ctl"/>
+		<Item Name="Read Recording Error File Write Cells.vi" Type="VI" URL="../Read Recording Error File Write Cells.vi"/>
 		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
+		<Item Name="Read Sonde Data File Write Cells.vi" Type="VI" URL="../Read Sonde Data File Write Cells.vi"/>
 		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
 		<Item Name="SDI-12.lvlib" Type="Library" URL="../sdi_12/SDI-12/SDI-12.lvlib"/>
 		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../sdi_12/Send  Sensor Calibration.vi"/>
@@ -76,7 +79,9 @@
 		<Item Name="volume integrator.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../sdi_12/wait for bytes at serial port.vi"/>
 		<Item Name="Write Excel Files.vi" Type="VI" URL="../Write Excel Files.vi"/>
+		<Item Name="Write KPRO Data cells to excel.vi" Type="VI" URL="../Write KPRO Data cells to excel.vi"/>
 		<Item Name="write out sonde row.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
+		<Item Name="Write Sonde Data cells to excel.vi" Type="VI" URL="../Write Sonde Data cells to excel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -385,6 +390,7 @@
 			<Item Name="get 9V monitor voltage.vi" Type="VI" URL="../get 9V monitor voltage.vi"/>
 			<Item Name="get sample header columns.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/get sample header columns.vi"/>
 			<Item Name="get sample sheet data cells.vi" Type="VI" URL="../sdi_12/get sample sheet data cells.vi"/>
+			<Item Name="get sonde data.vi" Type="VI" URL="../get sonde data.vi"/>
 			<Item Name="Get_KPRO_data_from_file 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Get_KPRO_data_from_file 2016.vi"/>
 			<Item Name="Get_SLOPE_data_from_file 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Get_SLOPE_data_from_file 2016.vi"/>
 			<Item Name="Global_SIM_switch.vi" Type="VI" URL="../KPRO_2016 subvis/Global_SIM_switch.vi"/>
@@ -692,8 +698,6 @@
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="Waterloo 64bit small installer" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2016/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2016/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">Waterloo</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
