@@ -68,6 +68,8 @@
 		<Item Name="slopes file test.vi" Type="VI" URL="../slopes file test.vi"/>
 		<Item Name="sonde calibration control.ctl" Type="VI" URL="../controls/sonde calibration control.ctl"/>
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
+		<Item Name="Sonde Data Array Control 1.ctl" Type="VI" URL="../../../Cascade/Waterloo DAQ/controls/Sonde Data Array Control 1.ctl"/>
+		<Item Name="Sonde Data Control 1.ctl" Type="VI" URL="../../../Cascade/Waterloo DAQ/controls/Sonde Data Control 1.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
 		<Item Name="strip path example.vi" Type="VI" URL="../strip path example.vi"/>
@@ -462,7 +464,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -471,7 +473,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{64774C4C-CC25-4036-A626-FAB9A4C3A1DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1246A8EE-3BE2-43AE-90B7-41402B9DC1FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel 64.vi</Property>
