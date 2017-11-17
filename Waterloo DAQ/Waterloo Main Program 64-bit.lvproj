@@ -35,6 +35,8 @@
 		<Item Name="convert sonde cluster to spreadsheet array.vi" Type="VI" URL="../convert sonde cluster to spreadsheet array.vi"/>
 		<Item Name="create slopes paths.vi" Type="VI" URL="../create slopes paths.vi"/>
 		<Item Name="Depth Control.ctl" Type="VI" URL="../KPRO_2016 subvis/Depth Control.ctl"/>
+		<Item Name="Display Control 1.ctl" Type="VI" URL="../controls/Display Control 1.ctl"/>
+		<Item Name="Down Hole CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Down Hole CAL_PRESSURE_TRANSDUCER 2016.vi"/>
 		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
 		<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
 		<Item Name="fill cell loop.vi" Type="VI" URL="../fill cell loop.vi"/>
@@ -466,7 +468,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
