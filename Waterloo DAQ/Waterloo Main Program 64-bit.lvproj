@@ -81,7 +81,6 @@
 		<Item Name="Up Hole PRESSURE_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Up Hole PRESSURE_CAL 2016.vi"/>
 		<Item Name="volume integrator.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../sdi_12/wait for bytes at serial port.vi"/>
-		<Item Name="Write Excel Files.vi" Type="VI" URL="../Write Excel Files.vi"/>
 		<Item Name="Write KPRO Data cells to excel.vi" Type="VI" URL="../Write KPRO Data cells to excel.vi"/>
 		<Item Name="write out sonde row.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 		<Item Name="Write Sonde Data cells to excel.vi" Type="VI" URL="../Write Sonde Data cells to excel.vi"/>
@@ -446,6 +445,7 @@
 			<Item Name="write Cell String to excel location.vi" Type="VI" URL="../sdi_12/write Cell String to excel location.vi"/>
 			<Item Name="write comment cell with column offset.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write comment cell with column offset.vi"/>
 			<Item Name="write data cell with column offset.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write data cell with column offset.vi"/>
+			<Item Name="Write Excel Files.vi" Type="VI" URL="../Write Excel Files.vi"/>
 			<Item Name="write KPRO file.vi" Type="VI" URL="../KPRO_2016 subvis/write KPRO file.vi"/>
 			<Item Name="write out sonde data.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde data.vi"/>
 			<Item Name="write time cell with column offset.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write time cell with column offset.vi"/>
@@ -466,7 +466,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -718,7 +718,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit small installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
