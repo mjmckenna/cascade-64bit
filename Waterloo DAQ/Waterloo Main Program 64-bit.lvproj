@@ -19,7 +19,9 @@
 		<Item Name="Action Control 1.ctl" Type="VI" URL="../controls/Action Control 1.ctl"/>
 		<Item Name="append filename to Cascade csv data file.vi" Type="VI" URL="../append filename to Cascade csv data file.vi"/>
 		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
+		<Item Name="AuxSensor_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/AuxSensor_CAL 2016.vi"/>
 		<Item Name="calculate current depth.vi" Type="VI" URL="../KPRO_2016 subvis/calculate current depth.vi"/>
+		<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
 		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor.vi"/>
 		<Item Name="Calibrate DO Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor2.vi"/>
 		<Item Name="Calibrate ORP Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate ORP Sensor2.vi"/>
@@ -63,6 +65,7 @@
 		<Item Name="Read Recording Error File Write Cells.vi" Type="VI" URL="../Read Recording Error File Write Cells.vi"/>
 		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
 		<Item Name="Read Sonde Data File Write Cells.vi" Type="VI" URL="../Read Sonde Data File Write Cells.vi"/>
+		<Item Name="Record IK reason.vi" Type="VI" URL="../KPRO_2016 subvis/Record IK reason.vi"/>
 		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
 		<Item Name="SDI-12.lvlib" Type="Library" URL="../sdi_12/SDI-12/SDI-12.lvlib"/>
 		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../sdi_12/Send  Sensor Calibration.vi"/>
@@ -75,6 +78,7 @@
 		<Item Name="Sonde Data Control 1.ctl" Type="VI" URL="../../../Cascade/Waterloo DAQ/controls/Sonde Data Control 1.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
+		<Item Name="String Pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/String Pot 2016.vi"/>
 		<Item Name="strip path example.vi" Type="VI" URL="../strip path example.vi"/>
 		<Item Name="test report gen.vi" Type="VI" URL="../sdi_12/test report gen.vi"/>
 		<Item Name="Turn On Off Circulator.vi" Type="VI" URL="../sdi_12/Turn On Off Circulator.vi"/>
@@ -367,7 +371,6 @@
 			<Item Name="CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_PRESSURE_TRANSDUCER 2016.vi"/>
 			<Item Name="Calculate Rate from Num Channels and Max Rate.vi" Type="VI" URL="../sdi_12/Calculate Rate from Num Channels and Max Rate.vi"/>
 			<Item Name="calculate sonde parameter cluster.vi" Type="VI" URL="../sdi_12/calculate sonde parameter cluster.vi"/>
-			<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
 			<Item Name="Calibrate pH Sensor.vi" Type="VI" URL="../sdi_12/Calibrate pH Sensor.vi"/>
 			<Item Name="CALIBRATION_SUMMARY.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATION_SUMMARY.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
@@ -435,7 +438,6 @@
 			<Item Name="Sonde Measurement Array to Cluster.vi" Type="VI" URL="../sdi_12/Sonde Measurement Array to Cluster.vi"/>
 			<Item Name="Sonde Value Percent Tol.ctl" Type="VI" URL="../sdi_12/Sonde Value Percent Tol.ctl"/>
 			<Item Name="Sonde Vertical Graph.ctl" Type="VI" URL="../sdi_12/SDI-12/Sonde Vertical Graph.ctl"/>
-			<Item Name="String Pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/String Pot 2016.vi"/>
 			<Item Name="STRING_POT_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/STRING_POT_CAL 2016.vi"/>
 			<Item Name="Turn On Sensors.vi" Type="VI" URL="../sdi_12/Turn On Sensors.vi"/>
 			<Item Name="ULx_LV.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2016/vi.lib/ULx/ULx_LV.dll"/>
@@ -468,7 +470,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -720,7 +722,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit small installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
