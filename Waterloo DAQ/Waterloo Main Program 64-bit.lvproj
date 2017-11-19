@@ -44,6 +44,7 @@
 		<Item Name="fill cell loop.vi" Type="VI" URL="../fill cell loop.vi"/>
 		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../KPRO_2016 subvis/Finished Collection Write File.vi"/>
 		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../sdi_12/format into Sonde Data Array.vi"/>
+		<Item Name="Get KPRO Output  Indices.vi" Type="VI" URL="../KPRO_2016 subvis/Get KPRO Output  Indices.vi"/>
 		<Item Name="Graph Controls 2.ctl" Type="VI" URL="../KPRO_2016 subvis/Graph Controls 2.ctl"/>
 		<Item Name="groundwater log header.vi" Type="VI" URL="../sdi_12/groundwater log header.vi"/>
 		<Item Name="Ik control.ctl" Type="VI" URL="../KPRO_2016 subvis/Ik control.ctl"/>
@@ -470,7 +471,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -722,7 +723,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit small installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
