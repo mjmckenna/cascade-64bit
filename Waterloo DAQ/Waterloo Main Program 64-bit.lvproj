@@ -17,6 +17,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Action Control 1.ctl" Type="VI" URL="../controls/Action Control 1.ctl"/>
+		<Item Name="adjust depth.vi" Type="VI" URL="../KPRO_2016 subvis/adjust depth.vi"/>
 		<Item Name="append filename to Cascade csv data file.vi" Type="VI" URL="../append filename to Cascade csv data file.vi"/>
 		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
 		<Item Name="AuxSensor_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/AuxSensor_CAL 2016.vi"/>
