@@ -368,6 +368,7 @@
 			<Item Name="Array to Graph 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Array to Graph 2016.vi"/>
 			<Item Name="Array to Plot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Array to Plot 2016.vi"/>
 			<Item Name="Aux Sensor.ctl" Type="VI" URL="../controls/Aux Sensor.ctl"/>
+			<Item Name="Aux3 Read 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Aux3 Read 2016.vi"/>
 			<Item Name="Boxcar filter2016.vi" Type="VI" URL="../KPRO_2016 subvis/Boxcar filter2016.vi"/>
 			<Item Name="CAL_FLOW_SENSOR 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_FLOW_SENSOR 2016.vi"/>
 			<Item Name="CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_PRESSURE_TRANSDUCER 2016.vi"/>
@@ -425,6 +426,7 @@
 			<Item Name="prompt_and_enter_value2.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value2.vi"/>
 			<Item Name="prompt_string.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_string.vi"/>
 			<Item Name="read 12V monitor from Z SDI-12 address.vi" Type="VI" URL="../sdi_12/read 12V monitor from Z SDI-12 address.vi"/>
+			<Item Name="read Aux3 from daq 2016.vi" Type="VI" URL="../KPRO_2016 subvis/read Aux3 from daq 2016.vi"/>
 			<Item Name="sample data row cluster.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sample data row cluster.ctl"/>
 			<Item Name="SDI-12 Continuous Operations.vi" Type="VI" URL="../sdi_12/SDI-12 Continuous Operations.vi"/>
 			<Item Name="SDI-12 Single Operation with output cluster.vi" Type="VI" URL="../sdi_12/SDI-12 Single Operation with output cluster.vi"/>
@@ -472,7 +474,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -481,7 +483,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1246A8EE-3BE2-43AE-90B7-41402B9DC1FA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8197FA87-8F2E-47F9-80F2-D571F3BF3340}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel 64.vi</Property>
