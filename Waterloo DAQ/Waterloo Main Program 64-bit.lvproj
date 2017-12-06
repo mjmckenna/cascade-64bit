@@ -63,6 +63,7 @@
 		<Item Name="One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib"/>
 		<Item Name="populate sonde row cluster from row.vi" Type="VI" URL="../sdi_12/populate sonde row cluster from row.vi"/>
 		<Item Name="Pressure Control 1.ctl" Type="VI" URL="../KPRO_2016 subvis/Pressure Control 1.ctl"/>
+		<Item Name="read groundwater header csv file.vi" Type="VI" URL="../KPRO_2016 subvis/read groundwater header csv file.vi"/>
 		<Item Name="Read IK Recording Error File Write Cells.vi" Type="VI" URL="../Read IK Recording Error File Write Cells.vi"/>
 		<Item Name="Read Recording Error File Write Cells.vi" Type="VI" URL="../Read Recording Error File Write Cells.vi"/>
 		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
@@ -89,6 +90,7 @@
 		<Item Name="Up Hole PRESSURE_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Up Hole PRESSURE_CAL 2016.vi"/>
 		<Item Name="volume integrator.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../sdi_12/wait for bytes at serial port.vi"/>
+		<Item Name="write groundwater header csv file.vi" Type="VI" URL="../KPRO_2016 subvis/write groundwater header csv file.vi"/>
 		<Item Name="Write KPRO Data cells to excel.vi" Type="VI" URL="../Write KPRO Data cells to excel.vi"/>
 		<Item Name="write out sonde row.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 		<Item Name="Write Sonde Data cells to excel.vi" Type="VI" URL="../Write Sonde Data cells to excel.vi"/>
@@ -423,7 +425,6 @@
 			<Item Name="prepend time to sonde data array.vi" Type="VI" URL="../sdi_12/prepend time to sonde data array.vi"/>
 			<Item Name="pressure and IK2 2016.vi" Type="VI" URL="../KPRO_2016 subvis/pressure and IK2 2016.vi"/>
 			<Item Name="prompt_and_enter_value 2016.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value 2016.vi"/>
-			<Item Name="prompt_and_enter_value2.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value2.vi"/>
 			<Item Name="prompt_string.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_string.vi"/>
 			<Item Name="read 12V monitor from Z SDI-12 address.vi" Type="VI" URL="../sdi_12/read 12V monitor from Z SDI-12 address.vi"/>
 			<Item Name="read Aux3 from daq 2016.vi" Type="VI" URL="../KPRO_2016 subvis/read Aux3 from daq 2016.vi"/>
@@ -474,7 +475,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
