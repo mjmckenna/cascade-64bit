@@ -37,6 +37,7 @@
 		<Item Name="convert cell to dbl.vi" Type="VI" URL="../sdi_12/convert cell to dbl.vi"/>
 		<Item Name="convert sonde cluster to spreadsheet array.vi" Type="VI" URL="../convert sonde cluster to spreadsheet array.vi"/>
 		<Item Name="create slopes paths.vi" Type="VI" URL="../create slopes paths.vi"/>
+		<Item Name="DAQ Initialize.vi" Type="VI" URL="../DAQ Initialize.vi"/>
 		<Item Name="Depth Control.ctl" Type="VI" URL="../KPRO_2016 subvis/Depth Control.ctl"/>
 		<Item Name="Display Control 1.ctl" Type="VI" URL="../controls/Display Control 1.ctl"/>
 		<Item Name="Down Hole CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Down Hole CAL_PRESSURE_TRANSDUCER 2016.vi"/>
@@ -232,7 +233,6 @@
 				<Item Name="NI_ReportGenerationToolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_office/NI_ReportGenerationToolkit.lvlib"/>
 				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="null" Type="VI" URL="/&lt;vilib&gt;/ULx/null"/>
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
@@ -345,7 +345,6 @@
 				<Item Name="ULx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/ULx/Read.llb/ULx Read (Digital Wfm 1Chan 1Samp).vi"/>
 				<Item Name="ULx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/ULx/Read.llb/ULx Read (Digital Wfm 1Chan NSamp).vi"/>
 				<Item Name="ULx Read.vi" Type="VI" URL="/&lt;vilib&gt;/ULx/Read.llb/ULx Read.vi"/>
-				<Item Name="ULx_LV.dll" Type="Document" URL="/&lt;vilib&gt;/ULx/ULx_LV.dll"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
@@ -445,6 +444,7 @@
 			<Item Name="Sonde Vertical Graph.ctl" Type="VI" URL="../sdi_12/SDI-12/Sonde Vertical Graph.ctl"/>
 			<Item Name="STRING_POT_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/STRING_POT_CAL 2016.vi"/>
 			<Item Name="Turn On Sensors.vi" Type="VI" URL="../sdi_12/Turn On Sensors.vi"/>
+			<Item Name="ULx_LV.dll" Type="Document" URL="../../builds/Waterloo Main Program/cascade/data/ULx_LV.dll"/>
 			<Item Name="ULx_LV.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2016/vi.lib/ULx/ULx_LV.dll"/>
 			<Item Name="up hole Pressure 2016.vi" Type="VI" URL="../KPRO_2016 subvis/up hole Pressure 2016.vi"/>
 			<Item Name="Vertical Chart.ctl" Type="VI" URL="../controls/Vertical Chart.ctl"/>
@@ -475,7 +475,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
