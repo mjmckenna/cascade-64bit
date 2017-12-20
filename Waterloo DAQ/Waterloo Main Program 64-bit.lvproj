@@ -20,6 +20,7 @@
 		<Item Name="adjust depth.vi" Type="VI" URL="../KPRO_2016 subvis/adjust depth.vi"/>
 		<Item Name="append filename to Cascade csv data file.vi" Type="VI" URL="../append filename to Cascade csv data file.vi"/>
 		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
+		<Item Name="AuxEC_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/AuxEC_CAL 2016.vi"/>
 		<Item Name="AuxSensor_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/AuxSensor_CAL 2016.vi"/>
 		<Item Name="calculate current depth.vi" Type="VI" URL="../KPRO_2016 subvis/calculate current depth.vi"/>
 		<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
@@ -475,7 +476,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
@@ -560,7 +561,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit full installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
@@ -664,7 +665,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit LV installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
@@ -711,7 +712,7 @@
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="Waterloo 64bit small installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Waterloo</Property>
+				<Property Name="Destination[0].name" Type="Str">Cascade</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -727,7 +728,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Waterloo 64bit small installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{644193F1-8ACB-4EBE-9BBA-619B10E18B1D}</Property>
 				<Property Name="INST_productName" Type="Str">Waterloo Main Program 64-bit</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.16</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ARA for  Cascade Environmental</Property>
