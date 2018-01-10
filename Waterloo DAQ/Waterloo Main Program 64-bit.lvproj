@@ -24,6 +24,7 @@
 		<Item Name="AuxSensor_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/AuxSensor_CAL 2016.vi"/>
 		<Item Name="calculate current depth.vi" Type="VI" URL="../KPRO_2016 subvis/calculate current depth.vi"/>
 		<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
+		<Item Name="Calibrate BP Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate BP Sensor2.vi"/>
 		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor.vi"/>
 		<Item Name="Calibrate DO Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor2.vi"/>
 		<Item Name="Calibrate ORP Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate ORP Sensor2.vi"/>
@@ -476,7 +477,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
