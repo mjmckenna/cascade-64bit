@@ -34,6 +34,7 @@
 		<Item Name="Calibrate Sonde Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Sonde Sensor.vi"/>
 		<Item Name="Cascade front panel 64.vi" Type="VI" URL="../Cascade front panel 64.vi"/>
 		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../sdi_12/cell pair to sonde value cluster.vi"/>
+		<Item Name="cluster to global variables.vi" Type="VI" URL="../cluster to global variables.vi"/>
 		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
 		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../sdi_12/convert cell pair to dbl.vi"/>
 		<Item Name="convert cell to dbl.vi" Type="VI" URL="../sdi_12/convert cell to dbl.vi"/>
@@ -70,6 +71,7 @@
 		<Item Name="Read IK Recording Error File Write Cells.vi" Type="VI" URL="../Read IK Recording Error File Write Cells.vi"/>
 		<Item Name="Read Recording Error File Write Cells.vi" Type="VI" URL="../Read Recording Error File Write Cells.vi"/>
 		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
+		<Item Name="read slopes csv to cluster.vi" Type="VI" URL="../read slopes csv to cluster.vi"/>
 		<Item Name="Read Sonde Data File Write Cells.vi" Type="VI" URL="../Read Sonde Data File Write Cells.vi"/>
 		<Item Name="Record IK reason.vi" Type="VI" URL="../KPRO_2016 subvis/Record IK reason.vi"/>
 		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
@@ -477,7 +479,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade-64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade-64/Cascade-64.exe</Property>
