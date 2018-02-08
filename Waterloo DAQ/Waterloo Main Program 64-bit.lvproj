@@ -45,8 +45,10 @@
 		<Item Name="Display Control 1.ctl" Type="VI" URL="../controls/Display Control 1.ctl"/>
 		<Item Name="Down Hole CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Down Hole CAL_PRESSURE_TRANSDUCER 2016.vi"/>
 		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
+		<Item Name="Excel Border Ctrl.ctl" Type="VI" URL="../controls/Excel Border Ctrl.ctl"/>
 		<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
 		<Item Name="fill cell loop.vi" Type="VI" URL="../fill cell loop.vi"/>
+		<Item Name="Finished Collection Change SS.vi" Type="VI" URL="../KPRO_2016 subvis/Finished Collection Change SS.vi"/>
 		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../KPRO_2016 subvis/Finished Collection Write File.vi"/>
 		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../sdi_12/format into Sonde Data Array.vi"/>
 		<Item Name="Get KPRO Output  Indices.vi" Type="VI" URL="../KPRO_2016 subvis/Get KPRO Output  Indices.vi"/>
@@ -82,8 +84,8 @@
 		<Item Name="slopes file test.vi" Type="VI" URL="../slopes file test.vi"/>
 		<Item Name="sonde calibration control.ctl" Type="VI" URL="../controls/sonde calibration control.ctl"/>
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
-		<Item Name="Sonde Data Array Control 1.ctl" Type="VI" URL="../../../Cascade/Waterloo DAQ/controls/Sonde Data Array Control 1.ctl"/>
-		<Item Name="Sonde Data Control 1.ctl" Type="VI" URL="../../../Cascade/Waterloo DAQ/controls/Sonde Data Control 1.ctl"/>
+		<Item Name="Sonde Data Array Control 1.ctl" Type="VI" URL="../controls/Sonde Data Array Control 1.ctl"/>
+		<Item Name="Sonde Data Control 1.ctl" Type="VI" URL="../controls/Sonde Data Control 1.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
 		<Item Name="String Pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/String Pot 2016.vi"/>
@@ -98,6 +100,8 @@
 		<Item Name="write groundwater header csv file.vi" Type="VI" URL="../KPRO_2016 subvis/write groundwater header csv file.vi"/>
 		<Item Name="Write KPRO Data cells to excel.vi" Type="VI" URL="../Write KPRO Data cells to excel.vi"/>
 		<Item Name="write out sonde row.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
+		<Item Name="write slope info FROM clusters.vi" Type="VI" URL="../write slope info FROM clusters.vi"/>
+		<Item Name="write slope info to clusters.vi" Type="VI" URL="../write slope info to clusters.vi"/>
 		<Item Name="Write Sonde Data cells to excel.vi" Type="VI" URL="../Write Sonde Data cells to excel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -449,7 +453,6 @@
 			<Item Name="STRING_POT_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/STRING_POT_CAL 2016.vi"/>
 			<Item Name="Turn On Sensors.vi" Type="VI" URL="../sdi_12/Turn On Sensors.vi"/>
 			<Item Name="ULx_LV.dll" Type="Document" URL="../../builds/Waterloo Main Program/cascade/data/ULx_LV.dll"/>
-			<Item Name="ULx_LV.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2016/vi.lib/ULx/ULx_LV.dll"/>
 			<Item Name="up hole Pressure 2016.vi" Type="VI" URL="../KPRO_2016 subvis/up hole Pressure 2016.vi"/>
 			<Item Name="Vertical Chart.ctl" Type="VI" URL="../controls/Vertical Chart.ctl"/>
 			<Item Name="volume integrator 2016.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator 2016.vi"/>
