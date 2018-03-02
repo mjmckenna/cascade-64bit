@@ -135,7 +135,7 @@
 			<Item Name="Read IK Recording Error File Write Cells.vi" Type="VI" URL="../Read IK Recording Error File Write Cells.vi"/>
 			<Item Name="Read Recording Error File Write Cells.vi" Type="VI" URL="../Read Recording Error File Write Cells.vi"/>
 			<Item Name="setup excel worksheet.vi" Type="VI" URL="../setup excel worksheet.vi"/>
-			<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
+			<Item Name="Sonde Data Control 1.ctl" Type="VI" URL="../controls/Sonde Data Control 1.ctl"/>
 			<Item Name="Sonde Value Percent Tol.ctl" Type="VI" URL="../sdi_12/Sonde Value Percent Tol.ctl"/>
 			<Item Name="Write Cell string and Format Border.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/Write Cell string and Format Border.vi"/>
 			<Item Name="write Cell String to excel location.vi" Type="VI" URL="../sdi_12/write Cell String to excel location.vi"/>
@@ -159,7 +159,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14EEB36B-2AD6-467A-A1E0-FC6AA7203187}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade Write Excel File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Cascade Write Excel File/Cascade Write Excel File.exe</Property>
